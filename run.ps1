@@ -1,0 +1,1 @@
+docker run --cap-add=CAP_IPC_LOCK -it --rm --volume "${PWD}/iac:/iac" --workdir /iac dx.rover
